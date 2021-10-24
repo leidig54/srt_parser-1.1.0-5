@@ -1,0 +1,17 @@
+name: srt_parser
+version: 1.1.0+5
+description: A cross-platform, .srt parser that allows you to read a String containing Html and Coordinates and results to subtitle objects.
+
+homepage: https://git.mant.life/arman/srt_parser
+repository: https://git.mant.life/arman/srt_parser/src/overkill
+issue_tracker: https://git.mant.life/arman/srt_parser/issues
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  csslib: ^0.17.1
+  meta: ^1.1.6
+
+dev_dependencies:
+  test: ^1.6.1
